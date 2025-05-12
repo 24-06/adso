@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    padding-top: 5px; /*Espacio arriba */
+    padding-bottom: 35px; /*Epacio abajo */
+    background-color:rgb(228, 196, 149);  /*Color a la cabecera */
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.cabecera .link-logo{
+    vertical-align: middle; /*Colocar logo en en el cetro de la cabecera */
+}
+
+/* .cabecera .link-logo .logo{
+    width: 130px;
+    height: 110px;
+    padding-left: 20px;
+
+} */
+
+.logo{
+    width: 4rem;
+    height: auto;
+    padding-left: 50px;
+}
+
+.cabecera .Menu{
+    display: inline-block;
+    margin-left: 35%; /*Alinear el menu desde la izquierda */
+}
+
+.cabecera .Menu a{
+    font-family:'Arimo' sans-serif;
+    transition: all 0.05s ease;
+    margin-left: 3px;
+    margin-right: 9px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px; /*Espacio entre cada letra de la palabra */
+    word-spacing: 2px; /*Espacio entre cada palabra*/
+    padding: 12px 7px;
+    border-radius: 8px;
+
+}
+
+
+.cabecera .Menu a:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+/*Aplicamos estilo a la seccion de la carta */
+
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:black;
+    background-color:rgb(228, 196, 149) ;
+    text-align: center;
+}
+
+.carta{
+    width: 100%;
+    text-align: center;
+}
+
+.carta a{
+    font-size: 30px;
+    font-family: 'Arimo' sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+    
+}
+
+.cartaimg{
+    text-align: center;
+    word-spacing: 20px;
+}
+
+#lacarta{
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Arimo' sans-serif;
+    font-size: 25px;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ecard-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+ .ecard{
+    background-color:rgb(228, 196, 149);
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(black 0,0, 0, 0.1 );
+     width: 400px;
+    height: 500px; 
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+}
+
+.ecard{
+    margin: 10px;
+    height: 500px;
+    overflow: hidden;
+    text-align: center;
+    margin: 30px;
+    border: 5px solid gray;
+}
+
+.ecard :hover{
+    margin: 20px;
+}
+
+.ecard.img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.ecard-content{
+    padding: 1rem;
+} 
+
+.ecard h2{
+    margin: 0.5rem;
+    font-size: 0.5s;
+    font-weight: bold;
+}
+
+.ecard p{
+    font-size: 1.25rem;
+    color:black ;
+}
+
+.ecard .carrito{
+    width: 40px;
+    height: 150px;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.ecard .carrito:hover{
+    background-color:black;
+}
+
+
+
+
+
