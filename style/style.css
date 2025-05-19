@@ -90,7 +90,7 @@ p {
 
 .section {
     width: 100%;
-    padding: 50px 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,25 +155,26 @@ p {
 
 .contact-info {
     text-align: center;
-    margin: 20px ;
+    margin: 5px;
+    
 }
 
-.contact-info a {
+/* .contact-info a {
     margin: 10px;
     padding: 20px;
-}
+} */
 
 form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    width: 100%;
-    margin: 20px auto;
+    width: 100% ;
+    margin: 5px;
 }
 
 form input, form textarea {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     font-size: 1rem;
     font-family: 'Arimo', sans-serif;
     border: 2px solid gray;
@@ -185,21 +186,21 @@ form textarea {
 }
 
 form button {
-    background-color: rgb(228, 196, 149);
+    background-color:white;
     color: black;
     font-family: 'Arimo', sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    border: 2px;
+    border-radius: 10px;
+    /* cursor: pointer;
+    transition: background-color 0.3s; */
 }
 
-form button:hover {
+/* form button:hover {
     background-color: white;
-}
+} */
 
 /* .login-form {
     width: 400px;
@@ -211,7 +212,6 @@ footer {
     background-color: rgb(228, 196, 149);
     color: black;
     text-align: center;
-    padding: 20px;
     font-family: 'Arimo', sans-serif;
     font-size: 1rem;
 }
