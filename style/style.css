@@ -155,11 +155,12 @@ p {
 
 .contact-info {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px ;
 }
 
 .contact-info a {
     margin: 10px;
+    padding: 20px;
 }
 
 form {
@@ -200,11 +201,11 @@ form button:hover {
     background-color: white;
 }
 
-.login-form {
+/* .login-form {
     width: 400px;
    margin: 30px;
     
-}
+} */
 
 footer {
     background-color: rgb(228, 196, 149);
